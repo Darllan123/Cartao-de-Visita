@@ -2,6 +2,7 @@ package me.dio.businesscard2.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import me.dio.businesscard2.data.BusinessCard
 import me.dio.businesscard2.databinding.ActivityAddBusinessCardBinding
 
 class AddBusinessCardActivity : AppCompatActivity() {
@@ -16,6 +17,7 @@ class AddBusinessCardActivity : AppCompatActivity() {
             finish()
         }
         binding.btnConfirme.setOnClickListener{
+
 
         }
     }
